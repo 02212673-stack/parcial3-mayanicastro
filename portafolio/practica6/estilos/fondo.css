@@ -1,0 +1,30 @@
+body{
+	background: url("../img/fondo.webp");
+}
+
+div{
+	width: 70%;
+	background: white ;
+	margin: 20px auto;
+	padding: 15px;
+	border-radius: 20px;
+	border: 1px solid #505454;
+}
+
+div:hover{
+	background: black;
+	color: white;
+}
+
+/*texto de caja inicio y pie centrado*/
+
+.inicio, .pie{
+	text-align: center;
+}
+
+/*texto de caja principal debe tener texto justificado y con mayor interlineal*/
+
+.principal p{
+	text-align: justify;
+	line-height: 30px;
+}
